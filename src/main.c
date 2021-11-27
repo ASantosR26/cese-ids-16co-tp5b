@@ -34,6 +34,12 @@
 
 /*=====[Implementations of private functions]================================*/
 
+/**
+ * @brief Función principal.
+ * @param argc 
+ * @param argv 
+ * @return int 
+ */
 int main(int argc, char *argv[]) {
     char cadena[2048];
 

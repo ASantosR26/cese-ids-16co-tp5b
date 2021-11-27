@@ -25,18 +25,28 @@
 
 /*=====[Definitions of public global variables]==============================*/
 
+/**
+ * @brief Estructura que contiene los datos del alumno Esteban Volentini.
+ */
 static const struct alumno_s ESTEBAN_VOLENTINI = {
     .apellidos = "VOLENTINI",
     .nombres = "Esteban Daniel",
     .documento = "23.517.968",
 };
 
+/**
+ * @brief Estructura que contiene los datos del alumno Alexander Santos.
+ */
 static const struct alumno_s ALEXANDER_SANTOS = {
     .apellidos = "SANTOS",
     .nombres = "Alexander Jesus",
     .documento = "23.517.969",
 };
 
+/**
+ * @brief Array de la estructura alumno_t.
+ * Almacena información de todos los alumnos.
+ */
 const alumno_t ALUMNOS[] = {
     &ESTEBAN_VOLENTINI,
     &ALEXANDER_SANTOS,
